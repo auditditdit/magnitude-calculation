@@ -1,0 +1,5 @@
+numpy
+scipy
+matplotlib
+pandas
+tk    # biasanya built-in; jika tidak, gunakan python-tk / tkinter via package manager
