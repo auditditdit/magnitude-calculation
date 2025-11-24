@@ -1,0 +1,31 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+pre {
+    white-space: pre-wrap;
+    background: #f8f9fa;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+/* FULL scroll area for seismogram */
+#scrollWrapper {
+    width: 100%;
+    height: 600px;          /* FIXED HEIGHT → forces vertical scrollbar */
+    overflow-x: auto;       /* horizontal scroll */
+    overflow-y: auto;       /* vertical scroll */
+    border: 1px solid #ccc;
+    background: #fafafa;
+    padding: 10px;
+}
+
+/* Prevent scaling → scroll instead of shrink */
+#scrollWrapper img {
+    display: block;
+    width:100%;
+    height: auto;
+
+    min-width: 50px;      /* force horizontal scroll */
+    min-height: 20px;     /* force vertical scroll */
+}
