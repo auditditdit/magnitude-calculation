@@ -1,5 +1,20 @@
+h2 {
+    color: white;                        
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.45);       
+    padding: 12px 22px;
+    border-radius: 12px;
+    backdrop-filter: blur(3px);            
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    background-image: url('./background.png'); /* file kamu */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 pre {
@@ -23,7 +38,7 @@ pre {
 /* Prevent scaling → scroll instead of shrink */
 #scrollWrapper img {
     display: block;
-    width:100%;
+    width: 100%;
     height: auto;
 
     min-width: 50px;      /* force horizontal scroll */
